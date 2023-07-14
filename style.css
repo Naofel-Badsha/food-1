@@ -142,6 +142,72 @@ header .navbar a:hover{
 
 
 
+/*-----------Home---------Section-----------Start-----------*/
+.Home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background: url(Img/Home.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Home .content{
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
+}
+
+.Home .image{
+    flex: 1 1 40rem;  
+}
+
+.Home .image img{
+    width: 100%;
+    padding: 1rem;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+
+    50%{
+        transform: translateY(3rem);
+    }
+}
+
+header .navbar a{
+    font-size: 2.7rem;
+}
+
+.Home .content h3{
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #25a244;
+}
+
+.Home .content h3 span{
+    color: #ff004f;
+    font-family: none;
+}
+
+.Home .content p{
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+/*-----------Home---------Section-----------End-----------*/
+
+
+
+
 
 
 
