@@ -269,6 +269,68 @@ header .navbar a{
 
 
 
+/*-----------Populala---------Section-----------Start-----------*/
+.Popular .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.Popular .box-container .box{
+    padding: 2rem;
+    background: #ffff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0.1);
+    border: .1rem solid rgba(0,0,0.3);
+    border-radius: .5rem;
+    text-align: center;
+    flex: 1 1 30rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.Popular .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.Popular .box-container .box:hover img{
+   transform: scale(1.1);
+}
+
+.Popular .box-container .box .prise{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    background: #25a244;
+    color: #fff;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+.Popular .box-container .box h3{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 1.2rem;
+    color: #ff004f;
+}
+
+.Popular .box-container .box .stars{
+    font-size: 2.3rem;
+    color: #25a244;
+}
+/*-----------Populala---------Section-----------End-----------*/
+
+
+
+
 
 
 
