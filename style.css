@@ -207,6 +207,71 @@ header .navbar a{
 
 
 
+/*-----------Spceility---------Section-----------Start-----------*/
+.Spceility .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.Spceility .box-container .box{
+    flex: 1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0.1);
+    border: 1ps solid rgba(0,0,0.1);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.Spceility .box-container .box .image{
+    height: 1005;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: -100%;
+    left: 0;
+}
+
+.Spceility .box-container .box:hover .image{
+    top: 0;
+}
+
+.Spceility .box-container .box .content{
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+}
+
+.Spceility .box-container .box:hover .content{
+    transform: translateY(100%);
+}
+
+.Spceility .box-container .box .content img{
+    margin: 1.3rem 0;
+}
+
+.Spceility .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: #25a244;
+    padding-bottom: 1rem;
+    font-family: sans-serif;
+}
+  
+.Spceility .box-container .box .content p{
+    font-size: 2rem;
+    color: #000000;
+    font-size: 600;
+    font-style: italic;
+}
+/*-----------Spceility---------Section-----------End-----------*/
+
+
+
+
+
+
+
 
 
 
