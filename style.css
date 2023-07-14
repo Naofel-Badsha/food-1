@@ -332,6 +332,50 @@ header .navbar a{
 
 
 
+/*-----------Delivery---------Section-----------Start-----------*/
+.Delivery .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.Delivery .box-container .box{
+    padding: 2rem;
+    background: #ffff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0.1);
+    border: .1rem solid rgba(0,0,0.3);
+    border-radius: .5rem;
+    text-align: center;
+    flex: 1 1 30rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.Delivery .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    transition: 0.3s;
+}
+
+.Delivery .box-container .box:hover img{
+   transform: scale(1.1);
+}
+
+.Delivery .box-container .box h3{
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 1rem;
+    color: #25a244;
+}
+/*-----------Delivery---------Section-----------End-----------*/
+
+
+
+
+
 
 
 
